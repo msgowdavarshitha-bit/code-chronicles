@@ -1,0 +1,6 @@
+#when we want to use particular function from another file we use modulo
+
+# from source_fle import needed_function
+
+#eg: from operation import additionFun
+
