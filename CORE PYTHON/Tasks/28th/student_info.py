@@ -1,6 +1,3 @@
-print("1.Create a class Student with: Instance variables: name, age, course Constructor to initialize them Instance method display() to display student details Create two objects and display their details.")
-
-
 class Student:
     def __init__(self, name, age, course):
         self.name = name
@@ -8,21 +5,28 @@ class Student:
         self.course = course
 
     def display(self):
-        print("Name of the student:", self.name)
-        print("Age of the student:", self.age)
-        print("Course of the student:", self.course)
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Course:", self.course)
         print()
 
 
-n = int(input("Enter the number of students: "))
+def createStudent(n):
+    if n == 0:
+        return
 
-for i in range(1, n + 1):
-    print("----" * 20)
     name = input("Enter name: ")
-    age = int(input("Enter the age: "))
-    course = input("Enter the course name: ")
+    age = int(input("Enter age: "))
+    course = input("Enter course: ")
 
-    d1 = Student(name, age, course)
+    s = Student(name, age, course)
 
-    print("Details of student", i)
-    d1.display()
+    createStudent(n - 1)    #i used recursion so that after creation of multiple objects and then display
+
+    print("Student Details:")
+    s.display()
+
+
+n = int(input("Enter number of students: "))
+
+createStudent(n)
