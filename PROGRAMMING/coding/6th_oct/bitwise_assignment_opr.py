@@ -5,8 +5,8 @@ print("Types of it")
 #3.Bitwise XOR :- ^
 #4. Bitwise NOT/negation/compliment:- ~ 
 #5. BItwise left shift:- <<
-#5. BItwise right shift:- >>
-#5. BItwise unsigned left shift:- <<< 
+#6. BItwise right shift:- >>
+#7. BItwise unsigned left shift:- <<< 
 
 
 print("***"*10)
