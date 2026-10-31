@@ -21,7 +21,7 @@ print("Functions")
 #the input that is required by a function to execute a logic
 #argument the values that are passed to a function during a function call for it to execute the logic
 
-#return is a keyword that will and it will the last execution line and anything after the return within the function will not work  " Once return works no oh=ther lines of code within the function will execute"
+#return is a keyword that will and it will the last execution line and anything after the return within the function will not work  " Once return works no other lines of code within the function will execute"
 
 #uses of return 
 #it instructs the pvm to take back the execution flow from called function to function call
