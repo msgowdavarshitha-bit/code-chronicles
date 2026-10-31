@@ -95,7 +95,7 @@ print("RULES")
 #the cursor moves only in forward direction
 #it directly fetches each individual value
 #even iterable objects are valid/ works
-#group of elements can be passed by segregating them using comma ','\
+#group of elements can be passed by segregating them using comma ','
 
 #NOTE for with range when used on an iterable object like arrays or string it represents index 
 #   for without range when used on an iterable objects it represents values

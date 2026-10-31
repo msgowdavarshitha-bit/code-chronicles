@@ -188,6 +188,7 @@ t=""
 val=100
 print(34 in arr)
 print([10] in arr)
+
 print([10] in arr[3])
 print("" not in t)
 print("ABCM" in s) # It is true because it will iterate through each character of the word, even though the substring is present then it will take as it is there and print true
