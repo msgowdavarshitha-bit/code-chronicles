@@ -1,4 +1,3 @@
-
 print("# 4.Write a program to display the first n asn ")
 def countDigit(n):
     count=0 

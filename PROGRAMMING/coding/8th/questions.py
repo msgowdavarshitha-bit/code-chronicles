@@ -42,3 +42,6 @@ print("to display all the non integer palindromes present in a user defined rang
 print("to display all the integer palindrome and non integer palindrome present in a user  defined range separately")
 print("to display first n integer palindrome")
 print("to display first n non integer palindrome")
+
+
+

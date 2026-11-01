@@ -44,15 +44,3 @@ num=int(input("Enter the number that you want to reverse"))
 a=integerPalindrome(num)
 print(a)
 
-
-print("ASSIGNMENT")
-# to display all the integer palindromes present in a user defined range
-
-
-# to display all the non integer palindromes present in a user defined range
-
-# to display all the integer palindrome and non integer palindrome present in a user  defined range separately
- #to display first n integer palindrome
- # to display first n non integer palindrome
-
-

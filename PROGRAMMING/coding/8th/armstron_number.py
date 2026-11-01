@@ -5,7 +5,7 @@ print("Armstrong number:- If the sum of the exponent value(Base:- is each is eac
 
 def countDigit(n):
     count=0 
-    while n>0:
+    while n>0:   #if any number which has the in-between 0 then it will stop loop so use n>0: not n>=0
         n=n//10 
         count+=1
     return count 

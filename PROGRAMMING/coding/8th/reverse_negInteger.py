@@ -1,4 +1,4 @@
-print("Write a program to reverse the integer even for negative integer")
+print("Write a program to reverse the integer for both positive and negative integer")
 
 
 def integerReverse(n):

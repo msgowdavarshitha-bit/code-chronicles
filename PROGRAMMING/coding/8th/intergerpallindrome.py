@@ -18,6 +18,7 @@ def isPalindrome(n):
         n=n//10
     if temp<0:
         p=p*-1
+    print(p)
     return p==temp
 
 n=int(input("Enter the number: "))
@@ -25,3 +26,10 @@ if isPalindrome(n):
     print("It is a palindrome")
 else:
     print("The given number is not a palindrome")
+
+
+
+#drawback
+# Enter the number: 100
+# 1
+# The given number is not a palindrome
