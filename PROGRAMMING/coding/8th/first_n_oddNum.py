@@ -16,8 +16,9 @@ while count>0:
         count-=1
     series+=1
 
-    if not isOddNumbers(series):
-        continue
+    # if not isOddNumbers(series):
+    #     continue
+    #Not necessary needed 
 
 
 

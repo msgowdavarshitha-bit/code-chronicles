@@ -1,5 +1,3 @@
-
-
 print("FACTOR")
 #an element is said to the factor of a number when the element is able to divide and reduce the number down to zero
 #NOTE every factors of a number lie from 1 to the number itself
@@ -86,9 +84,28 @@ print("The number of cycles: ",cycle_result)
 #WE can return the multiple values and call in the function call using 2 variables for that
 
 
+
+print()
+print("01-11-2026")
 print("LOGIC 2")
 
 print("all the factors of a given number can be displayed within the range of 1 to direct square root of the given number or lower nearest square root of the given number.")
 
+print("This is optimized no need of separate function for counting number of factors and cycles and the all factors")
 
+def factor_count(n):
+    count=0
+    count_cycle=0
 
+    for i in range(1,n+1):
+        count_cycle+=1
+        if n%i==0:
+            count+=1
+            print(i,end=" ")
+    return count,count_cycle
+
+n=int(input("Enter: "))
+a,b=factor_count(n)
+print()
+print(a,"The number of factors")
+print(b,"The number of cycles")

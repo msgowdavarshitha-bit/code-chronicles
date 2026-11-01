@@ -1,10 +1,8 @@
 print("#2.write a program to display all asn present in a user defined range")
 print("#3.write a program to display all asn and non asn present in a user defined range separately")
 print("#4.Write a program to display the first n asn")
-print("5.Write a program to display first n asn numbers")
+print("5.Write a program to display first n non asn numbers")
 print("6.Write a program to display first n asn numbers and non asn separately")
-
-
 
 
 

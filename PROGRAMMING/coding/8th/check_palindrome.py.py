@@ -23,6 +23,7 @@ else:
 
 
 
+print("To return the boolean value instead of printing it is palindrome and not palindrome")
 print("++++++"*5)
 def integerPalindrome(n):
     temp=n
