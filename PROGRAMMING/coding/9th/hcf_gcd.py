@@ -25,8 +25,12 @@ print("The HCF is",a)
 
 
 print("\n")
-print("For the negative numbers")  
-print("For negative numbers there is no HCF/GCD")
+# print("For the negative numbers")  
+# print("For negative numbers there is no HCF/GCD")
+
+
+print("to display the gcd and hcd of given 2 numbers")
+
 
 def findHCF(n1,n2):
     lower=n1
@@ -41,9 +45,7 @@ def findHCF(n1,n2):
 n1=int(input("Enter the first input: "))
 n2=int(input("Enter the second input: "))
 
-a=findHCF(n1,n2)
-print("The HCF is",a)
-
-
-
-print("to display the gcd and hcd of given 2 numbers")
+if findHCF(n1,n2):
+    print("HCF found")
+else:
+    print("HCF not found")
