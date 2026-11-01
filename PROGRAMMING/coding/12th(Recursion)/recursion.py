@@ -57,6 +57,8 @@ display(n)
 #initial fun call
 #fun_name(arguments)
 
+
+
 #Syntax2:- where there is a return value
 
 #called function
@@ -71,7 +73,7 @@ display(n)
 
 print("The condition which controls the recursive function call \nIt is decided based on when should the recursion call stop")
 
-#REcursionError:-  it is thrown by the pvm when memory re3source is asked beyond the availability
+#REcursionError:-  it is thrown by the pvm when memory resource is asked beyond the availability
 
 #it generally led in 2 case
 #1. when i/p is very huge
@@ -80,7 +82,7 @@ print("The condition which controls the recursive function call \nIt is decided 
 
 #initial function call :- it is the first call of the function, without it no function will be executed
 #in recursion ,the arguments passed should be the first value for the parameters
-# it generally would be outside the recursive function whuich it is calling
+# it generally would be outside the recursive function which it is calling
 # 
 # recursive function call:-
 # it is the call that is made to repeat the logic
