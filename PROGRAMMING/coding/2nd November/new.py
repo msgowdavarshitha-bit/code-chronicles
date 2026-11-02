@@ -1,0 +1,28 @@
+print("WAP to find the largest element in the array ALONG WITH index")
+
+#Contraints :_ what are the inputs they can give us
+
+
+def arr():
+    arr=[]
+    while True:
+        try:
+            n=int(input("Enter the element: "))
+            arr.append(n)
+        except Exception as e:
+            return arr
+
+def fineElem(l1):
+    max_element=-2**31
+    max_element_index=-1
+    for i in range(0,len(l1)):
+        if l1[i]>max_element:
+            max_element=l1[i]
+            max_element_index=i
+    return max_element,max_element_index
+
+
+a=arr()
+res1,res2=fineElem(a)
+print("The maximum valued element is",res1)
+print("The index the maximum element found",res2)
