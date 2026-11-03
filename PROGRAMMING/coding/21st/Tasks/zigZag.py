@@ -17,3 +17,9 @@ for i in range(1,n+1):
     print()
 
     count_decrement=count_decrement+(i+1)
+
+# Enter the number: 4
+# 1 
+# 3 2 
+# 4 5 6 
+# 10 9 8 7 

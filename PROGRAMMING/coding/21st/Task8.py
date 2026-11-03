@@ -1,7 +1,7 @@
 n=int(input("Enter the number: "))
 
 for i in range(n,1-1,-1):
-    for k in range(i-1):
+    for k in range(1,i):
         print(" ",end="")
     for j in range(i,n+1):
         print(j,end=" ")

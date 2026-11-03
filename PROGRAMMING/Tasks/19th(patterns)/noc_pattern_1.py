@@ -5,7 +5,7 @@ noc=n
 
 for i in range(1,n*2):
 
-    for j in range(noc):
+    for j in range(1,noc+1):
         print("*",end="")
 
     print()

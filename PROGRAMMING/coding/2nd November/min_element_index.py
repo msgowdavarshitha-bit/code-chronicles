@@ -13,13 +13,13 @@ def arr():
             return arr
 
 def fineElem(l1):
-    max_element=2**31
-    max_element_index=-1
+    min_element=2**31
+    min_element_index=-1
     for i in range(0,len(l1)):
-        if l1[i]<max_element:
-            max_element=l1[i]
-            max_element_index=i
-    return max_element,max_element_index
+        if l1[i]<min_element:
+            min_element=l1[i]
+            min_element_index=i
+    return min_element,min_element_index
 
 
 a=arr()
@@ -27,6 +27,3 @@ res1,res2=fineElem(a)
 print("The minimum valued element is",res1)
 print("The index the minimum element found",res2)
 
-
-
-print("CORRECT IT")

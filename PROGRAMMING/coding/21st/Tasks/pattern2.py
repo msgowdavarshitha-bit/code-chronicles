@@ -20,3 +20,9 @@ for i in range(n,1-1,-1):
     print()
 
     result=count-i+2
+
+# Enter the number: 4
+# 10 9 8 7 
+# 4 5 6 
+# 3 2 
+# 1 

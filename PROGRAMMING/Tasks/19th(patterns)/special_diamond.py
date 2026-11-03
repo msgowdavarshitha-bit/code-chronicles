@@ -16,4 +16,12 @@ for i in range(1,n*2):
     else:
         noc-=1
 
-    
+
+# Enter a number: 4
+#    *
+#   ***
+#  *****
+# *******
+#  *****
+#   ***
+#    * 

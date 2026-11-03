@@ -15,3 +15,13 @@ for i in range(1,n*2):
     else:
         nol-=1
         noc+=1
+
+
+# Enter the number: 4
+# *     *
+# **   **
+# *** ***
+# *******
+# *** ***
+# **   **
+# *     *

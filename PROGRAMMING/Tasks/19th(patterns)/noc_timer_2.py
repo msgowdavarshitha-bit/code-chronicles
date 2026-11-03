@@ -15,3 +15,12 @@ for i in range(1,n*2):
         noc-=1
     else:
         noc+=1
+
+# Enter the number: 4
+# *******
+#  *****
+#   ***
+#    *
+#   ***
+#  *****
+# *******

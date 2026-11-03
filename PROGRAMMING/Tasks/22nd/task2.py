@@ -10,7 +10,6 @@ for i in range(n,1-1,-1):
     print()
 
 
-
 # Enter number: 4
 # 4 4 4 4 
 # 4 3 3 3 

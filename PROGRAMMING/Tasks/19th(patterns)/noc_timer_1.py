@@ -1,13 +1,13 @@
 n=int(input("Enter the number: "))
 
 
-noc=4
+noc=n
 
 for i in range(1,n*2):
 
-    for k in range(n-noc):
+    for k in range(n,noc,-1):
         print(" ",end="")
-    for j in range(noc):
+    for j in range(1,noc+1):
         print("* ",end="")
     print()
 
@@ -15,3 +15,12 @@ for i in range(1,n*2):
         noc-=1
     else:
         noc+=1
+
+# Enter the number: 4
+# * * * * 
+#  * * * 
+#   * * 
+#    * 
+#   * * 
+#  * * * 
+# * * * * 

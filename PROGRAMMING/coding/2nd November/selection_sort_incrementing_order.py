@@ -42,3 +42,16 @@ print("NEW",a)
 
 
 
+# SELECTION SORT
+# WAP to program to sort array in incrementing order
+# Enter the element: 2
+# Enter the element: -1
+# Enter the element: -3
+# Enter the element: 0
+# Enter the element: 30
+# Enter the element: 21
+# Enter the element: 0
+# Enter the element: 10
+# Enter the element: -15
+# Enter the element: 
+# NEW [-15, -3, -1, 0, 0, 2, 10, 21, 30]

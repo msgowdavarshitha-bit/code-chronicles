@@ -10,3 +10,8 @@ for i in range(n,1-1,-1):
             count=1
     print()
 
+# Num: 4
+# a b c d
+# e f g h
+# i j k l
+# m n o p 
