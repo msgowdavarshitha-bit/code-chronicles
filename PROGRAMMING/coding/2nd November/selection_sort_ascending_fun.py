@@ -28,9 +28,6 @@ def selectionSort(a):
     a[actual_end],a[current_max_index]=a[current_max_index],a[actual_end]
 
 
-
-        
-
 a=int_arr()
 print(a)
 selectionSort(a)

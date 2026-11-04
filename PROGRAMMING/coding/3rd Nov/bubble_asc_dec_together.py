@@ -18,8 +18,9 @@ def bubble_sort(arr):
                 arr[j],arr[j+1]=arr[j+1],arr[j]
 
     # print("Decrementing")
-    print(arr[::-1])
+    # print(arr[::-1])      No need of this 
     
 arr=arrInput()
 bubble_sort(arr)
 print(arr)
+print(arr[::-1])

@@ -1,10 +1,7 @@
 print("DECORATOR")
 # adding functionality to the existing code without modifying the original code
 
-#Execute the function written in the book 
-
-
-
+#Execute the function written in the book
 
 def outer(func):
     print("Entering outer")
@@ -13,16 +10,13 @@ def outer(func):
         print("Entering inner")
         print("Processing")
         ref=func
-        a=ref().upper()
-        print(a)
+        ref()
         print("Leaving inner")
     return inner
 
 
 
-@outer
+@outer      #decorator
 def greet():
-    # print("Hi")
-    n=input("Enter the string: ")
-    return n
+    print("Hi")
 greet()
