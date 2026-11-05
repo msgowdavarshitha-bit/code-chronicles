@@ -21,7 +21,7 @@ def insertion_sort(arr):
             if arr[j-1]>arr[j]:
                 arr[j-1],arr[j]=arr[j],arr[j-1]
             else:
-                break
+                break     #we used break to stop the jth cycle when the already j>j-1
 
 arr=intArr()
 insertion_sort(arr)
