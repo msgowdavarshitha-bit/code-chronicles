@@ -9,6 +9,7 @@ class Book:
 
 
     def getdata(self):    
+        
         return self.__pages     #---> To return the settted data  
 
 b1=Book()
