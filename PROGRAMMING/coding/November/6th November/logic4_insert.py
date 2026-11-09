@@ -24,3 +24,21 @@ print(id(arr1))
 print(id(arr2))
 mergeLogic4(arr1,arr2)
 print("Created array1 after merge: ",arr1)
+print(id(arr1))
+
+
+
+# Enter the element: 2
+# Enter the element: 6
+# Enter the element: 
+# Enter the element: 1
+# Enter the element: 9
+# Enter the element: 0
+# Enter the element: 
+# Created array1 before merge:  [2, 6]
+# Created array2 before merge:  [1, 9, 0]
+# 2887965507520
+# 2887967335360
+# Created array1 after merge:  [2, 6, 1, 9, 0]
+# 2887965507520
+

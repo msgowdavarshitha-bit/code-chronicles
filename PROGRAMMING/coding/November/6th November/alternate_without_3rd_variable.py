@@ -1,4 +1,3 @@
-
 def intArr():
     l1=[]
     while True:
@@ -15,14 +14,17 @@ def mergeArr(arr1,arr2):
     for k in range(0,n1+n2):
         if k<n1+n2:
             if i<n1 and k%2==0:
-                arr1.insert(k,arr1[i])
+                # arr1.insert(k,arr1[i])    since i'm inserting into the arr1, no need to add that just insert the arr2 elements 
+                #If you i add this line again the arr1 elements are repeated which is wrong 
                 i+=1
             elif j<n2 and k%2!=0:
                 arr1.insert(k,arr2[j])
                 j+=1
             else:
                 if i<n1:
-                    arr1.insert(k,arr1[i])
+                    # arr1.insert(k,arr1[i])
+                    #  since i'm inserting into the arr1, no need to add that just insert the arr2 elements 
+                    #If you i add this line again the arr1 elements are repeated which is wrong 
                     i+=1
                 elif j<n2:
                     arr1.insert(k,arr2[j])   
@@ -31,23 +33,3 @@ arr1=intArr()
 arr2=intArr()
 mergeArr(arr1,arr2)
 print(arr1)
-
-
-
-#result=[]*(n1+n2)
-    # for k in range(0,n1+n2):
-    #     if k<(n1+n2):
-    #         if i<n1 and k%2==0:
-    #             result.append(arr1[i])
-    #             i+=1
-    #         elif j<n2 and k%2!=0:
-    #             result.append(arr2[j])
-    #             j+=1
-    #         else:
-    #             if i<n1:
-    #                 result.append(arr1[i])
-    #                 i+=1
-    #             elif j<n2:
-    #                 result.append(arr2[j])
-    #                 j+=1
-    # return result

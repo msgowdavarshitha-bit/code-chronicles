@@ -27,3 +27,19 @@ print(id(arr2))
 mergeLogic1(arr1,arr2)
 
 print("Created array1 after merge: ",arr1)
+
+
+# WAP to merge array one by one
+# WAP to merge the given arrays one after the other
+# Logic 3:- append()
+# Enter the element: 2
+# Enter the element: 3
+# Enter the element: 
+# Enter the element: 4
+# Enter the element: 5
+# Enter the element: 
+# Created array1 before merge:  [2, 3]
+# Created array2 before merge:  [4, 5]
+# 1900316557248
+# 1900318122944
+# Created array1 after merge:  [2, 3, 4, 5]
