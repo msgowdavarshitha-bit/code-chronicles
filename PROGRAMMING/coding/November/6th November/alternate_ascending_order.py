@@ -99,3 +99,10 @@ arr2=[1,21,21,35,82,99]
 
 final=mergeAlterAsc(arr1,arr2)
 print(final)
+
+
+
+#output
+
+# [1, 21, 21, 21, 32, 35, 45, 82, 99]
+

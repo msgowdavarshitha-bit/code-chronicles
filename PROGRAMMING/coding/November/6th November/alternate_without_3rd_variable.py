@@ -31,5 +31,25 @@ def mergeArr(arr1,arr2):
                     j+=1             
 arr1=intArr()
 arr2=intArr()
+print("Array without merging: ",arr1)
 mergeArr(arr1,arr2)
-print(arr1)
+print("Array after merging: ",arr1)
+
+
+
+
+
+
+# Enter the element: 2
+# Enter the element: 1
+# Enter the element: 3
+# Enter the element: 6
+# Enter the element: 99
+# Enter the element: 
+# Enter the element: 10
+# Enter the element: 8
+# Enter the element: 7
+# Enter the element: 23
+# Enter the element: 
+# Array without merging:  [2, 1, 3, 6, 99]
+# Array after merging:  [2, 10, 1, 8, 3, 7, 6, 23, 99]

@@ -12,7 +12,7 @@ print("Principles")
 #In python arrays can hold both homogenous and heterogenous data
 #It is an iterable object
 #It can hold 0 or None or empty or single valued data or any other objects also
-#Memory is dynamic :- size of m/m locaton can be shrinked or enlarged based on insertion or deletion of values from array
+#Memory is dynamic :- size of m/m location can be shrinked or enlarged based on insertion or deletion of values from array
 #AN array is python is represented in a pair of [], which can be accessed by using arr_reference_var_name
 #Duplicates are allowed
 #array m/m is allocated in heap which is assigned by the PVM
