@@ -1,11 +1,11 @@
-# # def intArr():
-# #     l1=[]
-# #     while True:
-# #         try:
-# #             n=int(input("Enter the element: "))
-# #             l1.append(n)
-# #         except Exception as e:
-# #             return l1
+# def intArr():
+#     l1=[]
+#     while True:
+#         try:
+#             n=int(input("Enter the element: "))
+#             l1.append(n)
+#         except Exception as e:
+#             return l1
 
 # # def mergeArr(arr1,arr2):
 # #     n1=len(arr1)
@@ -64,13 +64,21 @@
 #                 j+=1
 #     return result
 
-
 # arr1=intArr()
 # arr2=intArr()
 # final_array=mergeArr(arr1,arr2)
 # print(final_array)
 
 
+
+def intArr():
+    l1=[]
+    while True:
+        try:
+            n=int(input("Enter the element: "))
+            l1.append(n)
+        except Exception as e:
+            return l1
 
 
 def mergeAlterAsc(arr1,arr2):
@@ -94,15 +102,28 @@ def mergeAlterAsc(arr1,arr2):
                 j+=1
     return res
 
-arr1=[21,32,45]
-arr2=[1,21,21,35,82,99]
+arr1=intArr()
+arr2=intArr()
 
 final=mergeAlterAsc(arr1,arr2)
 print(final)
 
 
 
-#output
+#output:- 1
 
 # [1, 21, 21, 21, 32, 35, 45, 82, 99]
 
+
+
+#o/p:-2
+
+# Enter the element: -1
+# Enter the element: 1
+# Enter the element: 2
+# Enter the element: 
+# Enter the element: 0
+# Enter the element: 10
+# Enter the element: 12
+# Enter the element: 
+# # [-1, 0, 1, 2, 10, 12]

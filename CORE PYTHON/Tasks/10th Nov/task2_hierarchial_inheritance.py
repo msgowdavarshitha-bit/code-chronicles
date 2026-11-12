@@ -47,9 +47,10 @@ class Patient(Person):
 
 
 
-name=input("Enter the name of the person: ")
-age=int(input("Enter the age of the person: "))
-specialization=input("Enter the doctor's specialization: ")
+print("Doctor's Information:- ")
+name=input("Enter the name of the person/Doctor: ")
+age=int(input("Enter the age of the person/Doctor: "))
+specialization=input("Enter the doctor's specialization/DOctor: ")
 disease=input("Enter the disease of the patient: ")
 
 print("1")
