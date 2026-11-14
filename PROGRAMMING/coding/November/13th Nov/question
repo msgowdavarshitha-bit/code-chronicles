@@ -1,0 +1,19 @@
+#WAP to display the first occurance of a target element present in a given ascending sorted array if not present return -1
+
+
+
+#Question 2:- 
+#WAP To return the index of peak element present in a mountain array
+# Ex:-
+# arr1=[1,1,2,4,16,11,9,2]    => 4
+# arr2=[1,2,3,4,5,6,79,10]    => 6
+# arr3=[1,2,3,4,2]            =>3
+
+
+#first half elements placed in ascending order
+#second half elements placed in descending order
+#whenever any sorting is involved in an array and search operation need to be performed on it then it is binary search
+#peak element cannot be zero
+
+#return the peak element index
+
