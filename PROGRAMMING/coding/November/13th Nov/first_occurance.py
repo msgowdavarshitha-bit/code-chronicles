@@ -25,7 +25,9 @@ arr=intArr()
 target=int(input("Enter the target element: "))
 
 result=fisrtOccurance(arr,target)
-print("Fisrt occurance of",target,"is found at",result)
+print("First occurance of",target,"is found at",result)
+
+
 
 
 
