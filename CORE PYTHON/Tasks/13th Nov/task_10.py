@@ -18,4 +18,5 @@ class Employee:
 
 class Developer(Employee):
     def work(self):
+        print("Hi")
         
