@@ -8,7 +8,7 @@ class Car:
         print("car turned on")
         
 class Heart:
-    def __init__self(slef,name):
+    def __init__self(self,name):
         self.hname=name
     
     def getHeart(self):
