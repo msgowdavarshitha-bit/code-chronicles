@@ -22,10 +22,11 @@ def numConversion(s):
     for i in range(0,len(s)):
         if "0"<=s[i]<="9":
             sumNum=sumNum+(ord(s[i])-48)
+            print(sumNum)
         else:
             nstr+=s[i]
     
-    return nstr.str(sumNum)
+    return nstr+str(sumNum)
     
 s=input("Enter a string:")
 res=numConversion(s)

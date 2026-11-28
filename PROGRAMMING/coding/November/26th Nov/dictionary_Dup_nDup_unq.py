@@ -50,7 +50,7 @@ def intArr():
 def segregation(arr):
     dict={}
     for i in range(0,len(arr)):
-        dict[arr[i]]=get(dict[arr[i]],0)+1
+        dict[arr[i]]=dict.get(arr[i],0)+1
 
     dup,non_dup,unique=[],[],[]
 
